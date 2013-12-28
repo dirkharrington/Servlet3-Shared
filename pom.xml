@@ -19,9 +19,9 @@
     <finalName>my-webapp</finalName>
   </build>
   <modules>
+    <module>shared</module>
     <module>aar</module>
     <module>wct</module>
     <module>msde</module>
-    <module>shared</module>
   </modules>
 </project>
