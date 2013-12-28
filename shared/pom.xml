@@ -24,10 +24,12 @@
   <build>
     <finalName>shared</finalName>
     <resources>
-      <resource>
-        <directory>src/main/resources/META-INF</directory>
-        <targetPath>WEB-INF/lib</targetPath>
-      </resource>
-    </resources> 
+     <resource>
+      <directory>.</directory>
+      <includes>
+        <include>META-INF/resources/**/*.*</include>
+      </includes>
+     </resource>
+    </resources>
   </build>
 </project>
